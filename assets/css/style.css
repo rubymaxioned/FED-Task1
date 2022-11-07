@@ -175,7 +175,9 @@ h1 { margin-bottom: 10px; }
   height: 25px
 }
 
-.bag::before {
+.bag::before,
+.user::before {
+  color: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -187,11 +189,7 @@ h1 { margin-bottom: 10px; }
   text-transform: uppercase;
 }
 
-.user::before {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+.user::before { color: #999; }
 
 .language a::after,
 .dollar a::after { 
@@ -236,6 +234,8 @@ h2 {
   text-transform: uppercase;
 }
 
+.banner-content { text-align: center; }
+
 .banner-content p { 
   color: #fff;
   font-size: 8px;
@@ -251,6 +251,12 @@ h2 {
   color: #A47870;
   content: '\f00c';
   font-size: 18px;
+}
+
+.feature-section ul { 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .feature-section ul li { text-align: center; }
@@ -421,6 +427,8 @@ h6::after { top: 50px; }
   line-height: 10px;
   text-align: center;
 }
+
+.fashionable-bags { margin-bottom: 25px; }
 /*Fashionable bags section end*/
 
 /*=================================
@@ -460,8 +468,51 @@ footer .wrapper { text-align: center; }
 =================================*/ 
 
 /*media query starts*/
+/*media query for 480px starts here*/
+@media only screen and (min-width: 480px) {
+.header-icons { flex-basis: 10%; }
+
+.feature-section ul {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.poster-section .wrapper { width: 86%; }
+h4 { font-size: 14px; }
+
+.para,
+.line { font-size: 9px; }
+
+h6::after { top: 34px; }
+footer ul {
+  width: 50%;
+  margin: 0 auto;
+}
+}  
+
+/*media query for 540px starts here*/
+@media only screen and (min-width: 540px) {
+
+
+
+}  
+
+/*media query for 768px starts here*/
+@media only screen and (min-width: 768px) {
+
+
+
+}  
+
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+@media only screen and (min-width: 995px) {
+
+
+
+}  
+
+/*media query for 1024px starts here*/
+@media only screen and (min-width: 1024px) {
 
 
 
