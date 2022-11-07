@@ -245,6 +245,8 @@ h2 {
 /*Banner section end*/
 
 /*Feature section start*/
+.feature-section { margin-bottom: 30px; }
+
 .tick::before { 
   color: #A47870;
   content: '\f00c';
@@ -266,7 +268,19 @@ h3 {
 }
 /*Feature section end*/
 
+/*Poster section start*/
+.poster-section { background-color: #F4F0EB; }
+.poster-section .wrapper { width: 92%; }
+.poster-section figure { margin-bottom: 32px; }
 
+h4 {
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 13px;
+}
+
+.poster-content .icons { display: block; }
+/*Poster section end*/
 
 
 
