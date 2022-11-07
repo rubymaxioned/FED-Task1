@@ -123,11 +123,11 @@ header .wrapper {
 }
 
 header {
-  text-align: center;
   margin: 15px 0 10px;
- }
+  text-align: center;
+}
 
- h1 { margin-bottom: 10px; }
+h1 { margin-bottom: 10px; }
 
 .language-submenu,
 .dollar-submenu { display: none; }
@@ -144,9 +144,9 @@ header {
 
 .icons::before {
   position: absolute;
+  left: 0px;
   font-family: "FontAwesome";
   font-size: 8px;
-  left: 0px;
   text-indent: 0;
 }
 
@@ -205,8 +205,8 @@ header {
 
 .language-container { 
   display: flex;
-  justify-content: space-around;
   flex-basis: 20%;
+  justify-content: space-around;
 }
 
 /*=================================
@@ -237,10 +237,10 @@ h2 {
 }
 
 .banner-content p { 
-  font-size: 8px;
-  text-transform: uppercase;
   color: #fff;
+  font-size: 8px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 /*Banner section end*/
 
@@ -367,8 +367,8 @@ h6::after {
 
 .card-list li:nth-of-type(4) {
   width: 50%;
-  margin: 0 auto;
   padding: 6px 5%;
+  margin: 0 auto;
   border: 0.2px solid #9999;
   border-radius: 20px;
   display: flex;
