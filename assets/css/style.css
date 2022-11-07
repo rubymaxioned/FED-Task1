@@ -122,6 +122,13 @@ header .wrapper {
   flex-direction: column;
 }
 
+header {
+  text-align: center;
+  margin-top: 15px;
+ }
+
+ h1 { margin-bottom: 10px; }
+
 .language-submenu,
 .dollar-submenu { display: none; }
 
@@ -209,7 +216,13 @@ header .wrapper {
 /*=================================
   main styling starts here
 =================================*/
-
+/*Banner section start*/
+.banner-section {
+    width: 100%;
+    min-height: 200px;
+    background: url(/assets/Images/cf763dbc4af9f2e7c15c492da034873160002087_slide1.jpg) no-repeat center center / cover;
+}
+/*Banner section end*/
 
 
 
