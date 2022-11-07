@@ -270,7 +270,11 @@ h3 {
 /*Feature section end*/
 
 /*Poster section start*/
-.poster-section { background-color: #F4F0EB; }
+.poster-section { 
+  margin-bottom: 30px;
+  background-color: #F4F0EB;
+ }
+
 .poster-section .wrapper { width: 92%; }
 .poster-section figure { margin-bottom: 32px; }
 
@@ -302,7 +306,7 @@ h4 {
 
 .cart { flex-basis: 23%; }
 
-.cart a{
+.cart a {
   width: 100%;
   padding: 10px 5%;
   border-radius: 20px;
@@ -318,8 +322,88 @@ h4 {
 .price span { color: #444; }
 /*Poster section end*/
 
+/*card section start*/
+.main-card-list > li:nth-of-type(3) { display: none; }
 
+.main-card-list { 
+  margin-bottom: 30px;
+  display: flex;
+}
 
+.main-card-list > li { text-align: center; }
+
+h5 { 
+  padding-top: 20px;
+  position:  relative;
+  font-size: 8px;
+  text-transform: capitalize;
+ }
+
+h5::before {
+  width: 50px;
+  height: 0.5px;
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  background-color: #A47870;
+  content: '';
+  transform: translate(-50%, 50%);
+}
+
+.card-list > li:nth-of-type(1) { margin-bottom: 10px; }
+
+.card-list > li:nth-of-type(3) { 
+  width: 100%; 
+  margin-bottom: 10px;
+  color: #777;
+  font-size: 10px;
+}
+
+.card-list li:nth-of-type(4) {
+  width: 50%;
+  margin: 0 auto;
+  padding: 6px 5%;
+  border: 0.2px solid #9999;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  font-size: 5px;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.card-list li:nth-of-type(4) a { color: #000; }
+
+.dot-sec span {
+  width: 20px;
+  height: 20px;
+}
+
+.dot-sec { text-align: center; }
+
+.dot-sec span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #999;
+  text-indent: -9999px;
+}
+
+.dot-sec .active { background-color: #A47970; }
+.card-section { margin-bottom: 60px; }
+/*card section end*/
+
+/*Fashionable bags section start*/
+h6 {
+  font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #444;
+}
+/*Fashionable bags section end*/
 
 /*=================================
   main styling ends here
