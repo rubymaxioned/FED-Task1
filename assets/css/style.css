@@ -117,11 +117,90 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header .wrapper {
+  display: flex;
+  flex-direction: column;
+}
 
+.language-submenu,
+.dollar-submenu { display: none; }
 
+.header-bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
 
+.user::before { content: '\f007'; }
+.bag::before { content: '\f290'; }
 
+.icons::before {
+  position: absolute;
+  font-family: "FontAwesome";
+  font-size: 8px;
+  left: 0px;
+  text-indent: 0;
+}
 
+.icons { 
+  display: inline-block;
+  position: relative;
+  text-indent: -9999px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  flex-basis: 15%;
+  justify-content: space-between;
+}
+
+.header-icons li:nth-of-type(2) {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #A47870;
+}
+
+.bag {
+  width: 25px;
+  height: 25px
+}
+
+.bag::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.language-container { 
+  align-items: center;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+.user::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.language a::after,
+.dollar a::after { 
+  padding-left: 3px;
+  content: '\f0d7'; 
+  font-family: "FontAwesome";
+}
+
+.language a,
+.dollar a { color: #555; } 
+
+.language-container { 
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 20%;
+}
 
 /*=================================
   Header styling ends here
