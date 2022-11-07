@@ -124,7 +124,7 @@ header .wrapper {
 
 header {
   text-align: center;
-  margin-top: 15px;
+  margin: 15px 0 10px;
  }
 
  h1 { margin-bottom: 10px; }
@@ -220,6 +220,7 @@ header {
 .banner-section {
   width: 100%;
   min-height: 200px;
+  margin-bottom: 35px;
   display: flex;
   align-items: center;
   background: url(/assets/Images/cf763dbc4af9f2e7c15c492da034873160002087_slide1.jpg) no-repeat center center / cover;
@@ -243,6 +244,27 @@ h2 {
 }
 /*Banner section end*/
 
+/*Feature section start*/
+.tick::before { 
+  color: #A47870;
+  content: '\f00c';
+  font-size: 18px;
+}
+
+.feature-section ul li { text-align: center; }
+.caps::first-letter { text-transform:  uppercase; }
+
+h3 {
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 11px;
+}
+
+.para {
+  color: #777;
+  font-size: 8px;
+}
+/*Feature section end*/
 
 
 
