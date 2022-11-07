@@ -218,9 +218,28 @@ header {
 =================================*/
 /*Banner section start*/
 .banner-section {
-    width: 100%;
-    min-height: 200px;
-    background: url(/assets/Images/cf763dbc4af9f2e7c15c492da034873160002087_slide1.jpg) no-repeat center center / cover;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  background: url(/assets/Images/cf763dbc4af9f2e7c15c492da034873160002087_slide1.jpg) no-repeat center center / cover;
+}
+
+.banner-section .wrapper { flex-basis: 70%; }
+
+h2 {
+  margin-bottom: 4px;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.banner-content p { 
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
 }
 /*Banner section end*/
 
