@@ -262,7 +262,8 @@ h3 {
   font-size: 11px;
 }
 
-.para {
+.para,
+.line {
   color: #777;
   font-size: 8px;
 }
@@ -280,6 +281,41 @@ h4 {
 }
 
 .poster-content .icons { display: block; }
+
+.line::before { 
+  padding-right: 5px;
+  content: '\2d';
+  font-family: "FontAwesome";
+}
+
+.poster-content ul {
+  width: 85%;
+  margin: 0 auto 17px;
+}
+
+.price-info { 
+  padding-bottom: 43px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart { flex-basis: 23%; }
+
+.cart a{
+  width: 100%;
+  padding: 10px 5%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #A47870;
+  color: #fff;
+  font-size: 5px;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.price span { color: #444; }
 /*Poster section end*/
 
 
