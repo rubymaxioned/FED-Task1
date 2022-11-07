@@ -277,6 +277,7 @@ h3 {
 
 /*Poster section start*/
 .poster-section { 
+  padding-top: 30px;
   margin-bottom: 30px;
   background-color: #F4F0EB;
  }
@@ -500,13 +501,6 @@ footer ul {
 }
 }  
 
-/*media query for 540px starts here*/
-@media only screen and (min-width: 540px) {
-
-
-
-}  
-
 /*media query for 768px starts here*/
 @media only screen and (min-width: 768px) {
 .feature-section ul { width: 60%; }
@@ -564,21 +558,36 @@ footer .icons:hover { color: #FF0000; }
 /*media query for 995px starts here*/
 @media only screen and (min-width: 995px) {
 
-/* .language-container li {
-  position: relative;
-} */
-
-/* .language-submenu {
-  position: absolute;
-  top: 25px;
-  color: #555;
-} */
-
 }  
 
 /*media query for 1024px starts here*/
 @media only screen and (min-width: 1024px) {
+header .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+h1 { 
+  flex-basis: 50%;
+  text-align: initial;
+}
 
+.header-bottom { flex-basis: 50%; }
 
-}  
+.feature-section ul { 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.poster-section .wrapper {
+  width: 86%;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+}
+  
